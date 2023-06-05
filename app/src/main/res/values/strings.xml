@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ProyectoMovilDeliveryGo</string>
+    <string name="activity_pedido_exitoso_pedido">Pedido</string>
+    <string name="activity_pedido_exitoso_titulo">Su pedido fue exitoso</string>
+    <string name="activity_pedido_exitoso_delivery">Delivery</string>
+    <string name="activity_pedido_exitoso_descripcion">Se le entregara los productos conforme lo haya ordenado</string>
+    <string name="activity_pedido_exitoso_text_boton">Volver al inicio</string>
 </resources>
