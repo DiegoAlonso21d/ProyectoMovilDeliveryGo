@@ -6,4 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".activities.Activity_Ingresar_App">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283"
+        app:srcCompat="@drawable/delivery" />
+
+    <Button
+        android:id="@+id/btn_sesion_cuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/activity_ingresar_app_boton_sesion"
+        android:backgroundTint="@color/rojo"
+        android:textSize="20sp"
+        android:paddingVertical="15sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_crear_cuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/activity_ingresar_app_crear_cuenta"
+        android:backgroundTint="@color/rojo"
+        android:textSize="20sp"
+        android:paddingVertical="15sp"
+        android:paddingHorizontal="73sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sesion_cuenta" />
 </androidx.constraintlayout.widget.ConstraintLayout>
