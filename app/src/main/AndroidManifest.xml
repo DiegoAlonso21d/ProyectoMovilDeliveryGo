@@ -13,24 +13,40 @@
         android:theme="@style/Theme.ProyectoMovilDeliveryGo"
         tools:targetApi="31">
         <activity
-            android:name=".Activity_Menu_Lateral"
+            android:name=".activities.Activity_Detalle_Producto"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Activity_Tus_Pedidos"
             android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+        </activity>
+        <activity
+            android:name=".activities.Activity_Menu_Lateral"
+            android:exported="false"
+            android:label="@string/title_activity_menu_lateral"
+            android:theme="@style/Theme.ProyectoMovilDeliveryGo.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".activities.Activity_Cambiar_informacion_personal"
-            android:exported="true">
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".activities.Activity_Iniciar_Sesion"

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/activity_main_drawer_inicio" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_page"
+            android:title="@string/activity_main_drawer_pedidos" />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@drawable/ic_baseline_favorite_border_24"
+            android:title="@string/activity_main_drawer_favoritos" />
+        <item
+            android:id="@+id/nav_4"
+            android:icon="@drawable/ic_user"
+            android:title="@string/activity_main_drawer_perfil" />
+        <item
+            android:id="@+id/nav_5"
+            android:icon="@drawable/ic_help"
+            android:title="@string/activity_main_drawer_ayuda" />
+    </group>
+</menu>
