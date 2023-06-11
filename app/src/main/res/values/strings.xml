@@ -85,4 +85,11 @@
     <string name="activity_detalle_producto_comentario">Comentario de pedido</string>
     <string name="activity_detalle_producto_nota">Escribe una nota</string>
     <string name="activity_detalle_producto_agregar_carrito">Añadir a carrito</string>
+    <string name="activity_configurar_perfil_nombre">Santigo Cajachagua</string>
+    <string name="activity_configurar_perfil_correo">santiago@gmail.com</string>
+    <string name="activity_configurar_perfil_informacion_personal">Informacion personal</string>
+    <string name="activity_configurar_perfil_configuracion">Configuración</string>
+    <string name="activity_configurar_perfil_preferencias">Preferencias</string>
+    <string name="activity_configurar_perfil_legal">Información legal</string>
+    <string name="activity_configurar_perfil_cerrar_sesion">Cerrar Sesión</string>
 </resources>
