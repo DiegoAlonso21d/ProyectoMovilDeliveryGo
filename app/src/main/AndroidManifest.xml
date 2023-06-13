@@ -21,16 +21,12 @@
         </activity>
         <activity
             android:name=".activities.Activity_Detalle_Producto"
-            android:exported="true">
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".activities.Activity_Tus_Pedidos"
@@ -50,10 +46,15 @@
         </activity>
         <activity
             android:name=".activities.Activity_Cambiar_informacion_personal"
-            android:exported="false">
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".activities.Activity_Iniciar_Sesion"
