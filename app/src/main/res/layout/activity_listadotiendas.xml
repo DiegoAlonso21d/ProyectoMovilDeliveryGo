@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.Listadobebibas">
+    tools:context=".activities.Listadotiendas">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
@@ -32,7 +32,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BEBIDAS"
+            android:text="TIENDAS"
             android:textColor="@color/white"
             android:textSize="29dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +42,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.555" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
         android:layout_width="401dp"
@@ -56,29 +55,15 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="390dp"
             android:layout_height="44dp"
-            android:hint="Buscar Bebidas" />
+            android:hint="Buscar Tiendas" />
     </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PIDE AHORA"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
-        app:layout_constraintVertical_bias="0.027" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="409dp"
-        android:layout_height="556dp"
+        android:layout_height="591dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

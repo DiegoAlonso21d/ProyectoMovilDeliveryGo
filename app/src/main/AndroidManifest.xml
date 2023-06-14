@@ -13,10 +13,19 @@
         android:theme="@style/Theme.ProyectoMovilDeliveryGo"
         tools:targetApi="31">
         <activity
+            android:name=".activities.ListadoRestaurantes"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Listadotiendas"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Listadofarmacias"
+            android:exported="false" />
+        <activity
             android:name=".activities.Activity_menu"
             android:exported="false" />
         <activity
-            android:name=".activities.action_bebibas"
+            android:name=".activities.Listadobebibas"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

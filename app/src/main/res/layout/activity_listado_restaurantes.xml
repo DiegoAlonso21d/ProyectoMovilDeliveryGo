@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.Listadobebibas">
-
+    tools:context=".activities.ListadoRestaurantes">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
@@ -32,7 +31,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BEBIDAS"
+            android:text="RESTAURANTES"
             android:textColor="@color/white"
             android:textSize="29dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +41,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.555" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
         android:layout_width="401dp"
@@ -56,8 +54,9 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="390dp"
             android:layout_height="44dp"
-            android:hint="Buscar Bebidas" />
+            android:hint="Buscar Restautantes" />
     </com.google.android.material.textfield.TextInputLayout>
+
 
     <TextView
         android:id="@+id/textView4"
