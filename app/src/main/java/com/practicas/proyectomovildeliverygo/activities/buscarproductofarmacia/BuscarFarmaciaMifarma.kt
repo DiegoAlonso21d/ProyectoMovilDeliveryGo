@@ -1,12 +1,12 @@
-package com.practicas.proyectomovildeliverygo.activities
+package com.practicas.proyectomovildeliverygo.activities.buscarproductofarmacia
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.practicas.proyectomovildeliverygo.R
 
-class BuscarBebidasVinos : AppCompatActivity() {
+class BuscarFarmaciaMifarma : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_buscar_bebidas_vinos)
+        setContentView(R.layout.activity_buscar_farmacia_mifarma)
     }
 }

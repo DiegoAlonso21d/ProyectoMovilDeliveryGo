@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.buscarproductobebida.BuscarProductoBintage">
+    tools:context=".activities.buscarproductofarmacia.BuscarFarmaciaBoticaDeLaOcho">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="411dp"
@@ -43,7 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
                 android:background="@color/white"
-                android:hint="¿Buscar bebida?" />
+                android:hint="¿Buscar medicina?" />
         </com.google.android.material.textfield.TextInputLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -71,7 +71,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/rectangle_25" />
+            app:srcCompat="@drawable/farmacia_0_4" />
 
         <TextView
             android:id="@+id/textView10"
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginTop="6dp"
-            android:text="Bintage"
+            android:text="InkaFarma"
             android:textStyle="bold"
             android:textColor="@color/black"
             app:layout_constraintStart_toEndOf="@+id/imageView7"
@@ -163,6 +163,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="409dp"
         android:layout_height="431dp"

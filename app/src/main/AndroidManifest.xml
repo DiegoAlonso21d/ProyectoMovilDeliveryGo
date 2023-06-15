@@ -13,16 +13,49 @@
         android:theme="@style/Theme.ProyectoMovilDeliveryGo"
         tools:targetApi="31">
         <activity
-            android:name=".activities.BuscarProductoAzulitos"
+            android:name=".activities.buscarproductotienda.BuscarTiendaCasita"
             android:exported="false" />
         <activity
-            android:name=".activities.BuscarProductoBintage"
+            android:name=".activities.buscarproductotienda.BuscarTiendaCartera"
             android:exported="false" />
         <activity
-            android:name=".activities.BuscarBebidasVinos"
+            android:name=".activities.buscarproductotienda.BuscarTiendaCharito"
             android:exported="false" />
         <activity
-            android:name=".activities.BuscarProductoBebidas"
+            android:name=".activities.buscarproductorestaurante.BuscarRestauranteLenayCarbon"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductorestaurante.BuscarRestaurantePioChicken"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductorestaurante.BuscarRestauranteNorkys"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductorestaurante.BuscarRestauranteRocky"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductofarmacia.BuscarFarmaciaBoticaDeLaOcho"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductofarmacia.BuscarFarmaciaLaBotica"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductofarmacia.BuscarFarmaciaMifarma"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductofarmacia.BuscarFarmaciaInkaFarma"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductobebida.BuscarProductoAzulitos"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductobebida.BuscarProductoBintage"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductobebida.BuscarBebidasVinos"
+            android:exported="false" />
+        <activity
+            android:name=".activities.buscarproductobebida.BuscarProductoBebidas"
             android:exported="false" />
         <activity
             android:name=".activities.ListadoRestaurantes"
