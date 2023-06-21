@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/clInkafarma"
+        android:id="@+id/clVinos"
         android:layout_width="396dp"
         android:layout_height="111dp"
         app:layout_constraintBottom_toBottomOf="parent"
