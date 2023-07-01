@@ -55,8 +55,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_gallery">Perfil</string>
+    <string name="menu_slideshow">Mis pedidos</string>
     <string name="activity_menu_lateral_nombre">Santiago Cajachagua</string>
     <string name="activity_menu_lateral_email_perfil">Santiago@gmail.com</string>
     <string name="activity_main_drawer_inicio">Inicio</string>
@@ -92,4 +92,8 @@
     <string name="activity_configurar_perfil_preferencias">Preferencias</string>
     <string name="activity_configurar_perfil_legal">Información legal</string>
     <string name="activity_configurar_perfil_cerrar_sesion">Cerrar Sesión</string>
+    <string name="menu_pedidos">Mis Pedidos</string>
+    <string name="activity_pagar_pedido_boton_metodo_de_pago">Aceptar Metodo de pago</string>
+    <string name="activity_confirmar_pedido_titulo">Detalle de entrega</string>
+    <string name="activity_main_drawer_mispedidos">Mis Pedidos</string>
 </resources>

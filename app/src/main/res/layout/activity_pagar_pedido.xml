@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Activity_Pagar_Pedido">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@color/rojo"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/imgreversa"
+            android:layout_width="64dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="16dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Icon Description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_volver_atras" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eligir tu medio de pago"
+            android:textColor="@color/white"
+            android:textSize="29dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgreversa"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.508" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RadioGroup
+        android:id="@+id/rgmedipago"
+        android:layout_width="338dp"
+        android:background="@color/gris"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <RadioButton
+            android:id="@+id/rbtarjeta"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:drawableStart="@drawable/pago_tarjeta"
+            android:drawablePadding="8dp"
+            android:text="Tarjeta"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvAgregarTarjeta"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="end"
+            android:text="Introducir Tarjeta"
+            android:textColor="@color/rojo"/>
+
+        <RadioButton
+            android:id="@+id/rbefectivo"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:checked="true"
+            android:drawableStart="@drawable/pago_efectivo"
+            android:drawablePadding="8dp"
+            android:text="Efectivo"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/tvIngresarMonto"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="end"
+            android:text="Ingresar Monto"
+            android:textColor="@color/rojo"/>
+
+        <RadioButton
+            android:id="@+id/rbyape"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:drawableStart="@drawable/pago_yape"
+            android:drawablePadding="8dp"
+            android:text="Yape QR"
+            android:textSize="25dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnmedipago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="33dp"
+        android:backgroundTint="@color/rojo"
+        android:text="@string/activity_pagar_pedido_boton_metodo_de_pago"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgmedipago"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

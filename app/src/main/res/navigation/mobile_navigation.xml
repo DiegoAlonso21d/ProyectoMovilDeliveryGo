@@ -7,19 +7,24 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.practicas.proyectomovildeliverygo.activities.ui.home.HomeFragment"
+        android:name="com.practicas.proyectomovildeliverygo.activities.ui.inicio.InicioFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.practicas.proyectomovildeliverygo.activities.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_perfil"
+        android:name="com.practicas.proyectomovildeliverygo.activities.ui.perfil.PerfilFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_perfil" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.practicas.proyectomovildeliverygo.activities.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_favoritos"
+        android:name="com.practicas.proyectomovildeliverygo.activities.ui.favoritos.FavoritossFragment"
+        android:label="Favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+    <fragment
+        android:id="@+id/nav_Pedidos"
+        android:name="com.practicas.proyectomovildeliverygo.activities.ui.pedir.Fragment_Mis_Pedidos"
+        android:label="Pedidos"
+        tools:layout="@layout/fragment_favoritos" />
 </navigation>

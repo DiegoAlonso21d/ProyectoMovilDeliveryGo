@@ -273,7 +273,7 @@
                 tools:ignore="RtlCompat" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnIrApagar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10sp"

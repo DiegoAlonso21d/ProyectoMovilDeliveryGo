@@ -5,4 +5,8 @@
     <color name="rojo">#780000</color>
     <color name="transparente">#00FFFFFF</color>
     <color name="gris">#EDCDCFCF</color>
+    <color name="green">#1A6D33</color>
+    <color name="azul">#144175</color>
+    <color name="yellow">#E0822A</color>
+    <color name="purple_black">#3E165D</color>
 </resources>

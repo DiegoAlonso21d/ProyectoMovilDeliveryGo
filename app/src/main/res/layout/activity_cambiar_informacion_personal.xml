@@ -47,7 +47,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:id="@+id/imageView5"
+                    android:id="@+id/imgatraspersonal"
                     android:layout_width="55dp"
                     android:layout_height="34dp"
                     app:layout_constraintBottom_toBottomOf="parent"

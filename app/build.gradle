@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -30,7 +31,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    buildFeatures {
+    buildFeatures{
         viewBinding true
     }
 }
@@ -45,7 +46,38 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    // Navigation
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.2'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.2'
+
+    // fragments
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation "androidx.fragment:fragment-ktx:1.2.5"
+
+    //Networking
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    //Firebase FireStore (Base de datos)
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.4.1'
+
+    //Firebase Cloud Storage (Almacenamiento)
+    implementation 'com.google.firebase:firebase-storage-ktx:20.1.0'
+
+    //Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //Maps
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+
+    //Sweet Alert
+    implementation 'com.github.f0ris.sweetalert:library:1.6.2'
+
+    //ImagenView Circle
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }
